@@ -1,0 +1,50 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #FBFCFC;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}
+
+.form-search{
+    text-align: center;
+    margin: 1.5% 1.5%;
+}
+
+
+
+.result-search{
+
+}
+
+.grid-images{
+    display: grid;
+    grid-gap: .1rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 1.5%;
+    height: calc(100vh - 50px);
+}
+
+.img-item{
+    text-align: center;
+}
+
+.img-item:hover{
+    opacity: 25%;
+}
+
+
+
+
+
+
+

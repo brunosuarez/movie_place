@@ -1,50 +1,23 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    /* background: #161f46; */
 }
 
-body{
-    background-color: #FBFCFC;
+.container{
+    margin-left: 90px;
 }
 
-h2{
+.insert{
     text-align: center;
-    font-weight: bold;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+    width: 550px;
+    height: 300px;
+    font-size: 25px;
+    margin-top: 150px;
 }
 
-label{
-    font-weight: bold;
+input, option{
+    border-radius: 3px;
 }
-
-.form-search{
-    text-align: center;
-    margin: 1.5% 1.5%;
-}
-
-
-
-.result-search{
-
-}
-
-.grid-images{
-    display: grid;
-    grid-gap: .1rem;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin: 1.5%;
-    height: calc(100vh - 50px);
-}
-
-.img-item{
-    text-align: center;
-}
-
-.img-item:hover{
-    opacity: 25%;
-}
-
-
-
-
-
-
-

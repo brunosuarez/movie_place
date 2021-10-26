@@ -10,69 +10,24 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="./index.css">
-      <title>Movie Place</title>
+      <title>Movie Place | Saiba o Lugar de Filmes, Séries e Animes</title>
   </head>
-  <body class="content-form">
-    <div class="form-search"> 
-        <form class="row g-10">
-            <h2>Quer saber onde se passa aquela Série, Filme, Anime e etc?</h2><br><br><br>
+  <body>
+    <div class="container">
+        <div class="insert">
+            <label for="">Tipo:</label><br>
+            <select name="" id="">
+                <option value="">Selecione</option>
+                <option value="">Filme</option>
+                <option value="">Série</option>
+                <option value="">Anime</option>
+                <option value="">Outros(Documentários, Novelas e etc)</option>
+            </select>
 
-            <div class="col-md-2">
-                <label for="inputEmail4" class="form-label">Tipo</label>
-                <select id="inputState" class="form-select">
-                    <option selected>Escolha</option>
-                    <option>Filme</option>
-                    <option>Série</option>
-                    <option>Anime</option>
-                    <option>Outro</option>
-                  </select>
-            </div>
-
-            <div class="col-md-4">
-                <label for="" class="form-label">Título</label>
-                <input placeholder="Ex: Breaking Bad, Família Soprano..." type="text" class="form-control" id="" required>
-            </div>
-
-            <div class="col-md-4">
-                <button class="btn btn-primary" role="button">Buscar</button>
-            </div>
-           
-        </form>
-        
-    </div>
-
-    <div class="result-search">
-        <div class="grid-images">
-            <div class="img-item">
-                <img src="./assets/breaking-bad.jpeg" alt="" height="300" width="300">
-            </div>
-            <div class="img-item">
-                <img src="./assets/cidadao-kane.jpg" alt="" height="300" width="300">
-            </div>
-            <div class="img-item">
-                <img src="./assets/lost.jpg" alt="" height="300" width="300">
-            </div>
-            <div class="img-item">
-                <img src="./assets/sopranos.jpg" alt="" height="300" width="300">
-            </div>
-            <div class="img-item">
-                <img src="./assets/the-office.jpg" alt="" height="300" width="300">
-            </div>
-            <div class="img-item">
-                <img src="./assets/uma-linda-mulher.jpg" alt="" height="300" width="300">
-            </div>
-            <div class="img-item">
-                <img src="./assets/gravidade.jpg" alt="" height="300" width="300">
-            </div>
-            <div class="img-item">
-                <img src="./assets/interstelar.jpg" alt="" height="300" width="300">
-            </div>
+            <label for="">Título:</label><br>
+            <input type="text" placeholder="Ex: Jurrassic Park">
         </div>
     </div>
-
-    </div>
-    
-  
   </body>
   <script src="index.js"></script>
   </html>
